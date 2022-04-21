@@ -1,0 +1,51 @@
+.title {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.title .button {
+    margin: 0 0 0 auto;
+}
+.title img {
+    width: 128px;
+}
+
+.title .subtitle {
+    font-weight: 600;
+}
+
+.button {
+    background-color: #da6b64;
+    border-radius: 25px;
+}
+
+.title .button {
+    background-color: #da6b64;
+    border-radius: 25px;
+    color: #fff;
+    padding: 11px 40px;
+    right: 0px;
+    position: relative;
+}
+
+.top {
+    text-align: center;
+    background-image: url(../img/main.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.introduction {
+    text-align: center;
+    background-color: #ebb94d;
+}
+
+.earning {
+    text-align: center;
+}
+
+.topic {
+    border-top: 4px solid;
+}

@@ -1,0 +1,687 @@
+header {
+  height: 75px;
+  padding-top: 10px;
+}
+
+.title {
+  position: relative;
+}
+
+.title img {
+  width: 128px;
+  margin: 0;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 0;
+}
+
+.button {
+  margin: 0;
+  padding: 11px 40px;
+  color: #fff;
+  background-color: #da6b64;
+  border-radius: 25px;
+}
+
+.top {
+  height: 500px;
+  background-image: url(../img/main.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+.text-center {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.textl {
+  font-size: 28px;
+  font-weight: 600;
+  margin: auto;
+}
+
+.mainlogo {
+  width: 317px;
+  margin-bottom: 20px;
+}
+
+.textm {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.introduction {
+  padding: 30px 0;
+  background-color: #ebb94d;
+  color:white;
+  display: table;
+  width: 100%;
+}
+
+code {
+  background-color: #f9f2f4;
+}
+
+.introbutton {
+  margin: 30px auto;
+  padding: 30px 40px;
+  color: #fff;
+  background-color: #da6b64;
+  border-radius: 50px;
+  max-width: 1028px;
+}
+
+.earning {
+  background-image: url(../img/introbottom.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 587px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contents {
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.highlight {
+  font-weight: bold;
+  background: linear-gradient(to bottom, transparent 70%, #ebb94d 70%);
+}
+
+.topic {
+  position: relative;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 860px;
+}
+
+.topic::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  content: "";
+}
+
+.topic::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  content: "";
+}
+
+h2 {
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.abouticon {
+  position: relative;
+  top: -40px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+  background-color:#ebb94d ;
+  border-radius: 50%;
+  color: white;
+}
+
+.about {
+  text-align: center;
+  background-color: #fef5e0;
+  padding: 0 0 40px 0;
+}
+
+.aboutbox {
+  margin: 0 auto;
+  width: 1170px;
+  border: 2px solid #ebb94d;
+  background-color: white;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px;
+}
+
+.aboutbox {
+  padding: 30px;
+}
+
+.aboutbox .texts {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.aboutsecond {
+  background-image: url(../img/aboutsecondbg.jpeg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+.yellowtext {
+  color: #ebb94d;
+}
+
+.aboutsecond .textl {
+  padding: 20px 0;
+}
+
+.stepbox {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 32%;
+  margin: 0 0.5%;
+  padding: 30px 30px 20px;
+}
+
+.step {
+  background-color: #ebb94d;
+  color: white;
+  border-radius: 5px;
+}
+
+.aboutthird {
+  text-align: center;
+  color: white;
+  background-color: #016ea9;
+  padding: 40px;
+}
+
+.learning {
+  text-align: center;
+  padding: 40px;
+}
+
+.learningicon {
+  display: inline-block;
+  padding: 5px;
+}
+
+.learningicon img {
+  width: 80%
+}
+
+.learning h2, .learning .textm, .learning .texts{
+  padding: 30px;
+}
+
+.diff {
+  text-align: center;
+  background-color: #fef5e0;
+  padding: 40px;
+}
+
+.merit {
+  padding: 40px 15px;
+}
+
+.merit img {
+  width: 90%;
+}
+
+.merit p {
+  text-align: left;
+}
+
+.merit div {
+  /* width: 33%; */
+  height: 180px;
+}
+
+.learnfromfreelancer {
+  background-image: url(../img/learnfromfreelancer.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.learnfromprojects {
+  background-image: url(../img/learnfromprojects.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.actuallyfree {
+  background-image: url(../img/actuallyfree.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.support {
+  margin: 0 auto;
+  width: 1170px;
+  background-color: white;
+  border: 2px solid #ebb94d;
+  padding: 40px;
+}
+
+.support h2, .support p {
+  padding: 10px;
+}
+
+.diff p {
+  margin-top: 20px;
+}
+
+.members {
+  text-align: center;
+  color: white;
+  background-image: url(../img/teacherbg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.members {
+  padding: 40px;
+}
+
+.member {
+  padding: 40px;
+  border: 3px solid white;
+}
+
+.memberdetail {
+  text-align: left;
+}
+
+.texts {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.members h2, .members .texts{
+  padding: 20px;
+}
+
+.memberbox img {
+  position: relative;
+  bottom: -20px;
+}
+
+.fa {
+  display: inline-block;
+}
+
+.qa {
+  padding: 40px;
+  background-color: #ebb94d;
+  text-align: center;
+  position: relative;
+}
+
+.qaicon {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+  color:#ebb94d ;
+  background-color:white;
+  border-radius: 50%;
+}
+
+.topicwhite {
+  position: relative;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 860px;
+  color: white;
+}
+
+.topicwhite::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  content: "";
+}
+
+.topicwhite::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  content: "";
+}
+
+.qa::after {
+  content: "";
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  border: 25px solid transparent;
+  border-top-color: #ebb94d;
+  top: 100%;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.answer {
+  text-align: center;
+  padding: 40px;
+}
+
+.voices {
+  padding: 20px;
+  font-size: 18px;
+  text-align: left;
+  font-style: italic;
+  color: #777;
+}
+
+.voice {
+  margin-top: 20px;
+}
+
+.voiceimg {
+  width: 245px;
+  border: solid #ebb94d;
+}
+
+.message {
+  padding-top: 10px;
+}
+
+.name {
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.lineups {
+  padding: 40px;
+  background-image: url(../img/classbg.jpeg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.learnbefore, .learnafter {
+  background-color: white;
+  border: 2px solid #016ea9;
+  border-radius: 5px;
+}
+
+.learnbefore p, .learnafter p {
+  padding: 10px;
+  background-color: #016ea9;
+}
+
+.learnbefore ul, .learnafter ul {
+  color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.learnbefore li, .learnafter li {
+  padding: 10px;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+.eversupport {
+  background-color: #016ea9;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.flow {
+  text-align: center;
+  padding: 40px;
+}
+
+.flowimg {
+  margin: 40px;
+}
+
+.flowbox {
+  width: 1170px;
+  background-color: #fef5e0;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.flowleft {
+  float: left;
+  padding: 20px;
+}
+
+.flowright {
+  padding: 40px;
+  text-align: left;
+}
+
+.flowright p {
+  margin: 20px;
+}
+
+.txtxs {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.flowline {
+  margin: 0;
+}
+
+.bangkok {
+  padding: 80px;
+  color: white;
+  background-image: url(../img/bangkokbg.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bangkokdetail {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.special {
+  padding: 40px;
+  text-align: center;
+  background-color: #f7c23c;
+}
+
+.whitetext {
+  color: white;
+}
+
+.specialmore {
+  position: relative;
+  bottom: -15px;
+  width: 45%;
+  margin: 0 auto;
+  background-color: #f7c23c;
+}
+
+.specialdetail {
+  overflow: hidden;
+  border: 2px solid white;
+  padding: 40px;
+}
+
+.tokuten {
+  display: inline-block;
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+  margin: 0 auto;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.tokutenblock {
+  height: 250px;
+  display: table-cell;
+  padding: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -10px;
+}
+
+.interval {
+  padding: 40px;
+}
+
+.vision {
+  padding: 40px;
+  text-align: center;
+  color: white;
+  background-image: url(../img/specialdetail.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.vision p, .vision div {
+  padding: 20px;
+}
+
+.messagefromtop {
+  padding: 40px;
+  text-align: center;
+}
+
+.messagefromtop > p {
+  padding: 20px;
+}
+
+.topdetail {
+  max-width: 1028px;
+  margin: 40px auto;
+}
+
+.messagedetail {
+  text-align: left;
+}
+
+.topimg img {
+  width: 100%;
+}
+
+.form {
+  text-align: center;
+  padding: 40px 20%;
+  background-color: #ebb94d;
+}
+
+.form h2, .form p {
+  padding: 15px;
+}
+
+.contactform input, .contactform textarea {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.contactform textarea {
+  height: 100px;
+}
+
+.contactform #submit {
+  color: white;
+  background-color: #da6b64;
+  border-radius: 50px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.faq {
+  text-align: center;
+  padding: 40px 10%;
+}
+
+.faq h2 {
+  padding-bottom: 40px;
+}
+
+.left {
+  text-align: left;
+}
+
+.accordion {
+  margin-bottom: 5px;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.copyright {
+  font-size: 10px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+#fb-root, #fb-root2 {
+  display: inline-block;
+}
+
+footer p:nth-of-type(2) {
+  padding: 30px;
+}
+
+.pagetop {
+  cursor: pointer;
+  position: fixed;
+  bottom: 90px;
+  right: 50px;
+  padding: 20px;
+  background-color: #ececec;
+}
+
+.fa-chevron-up {
+  font-size: 30px;
+}
